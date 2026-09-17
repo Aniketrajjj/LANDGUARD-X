@@ -1,14 +1,5 @@
 <div align="center">
 
-# 🌍 LANDGUARD-X
-
-### AI-Powered Landslide Susceptibility, Risk Intelligence & Decision Support Platform
-
-**From Terrain Intelligence → Risk Assessment → Decision Support → Action**
-
-🛰️ Geospatial Intelligence · 🤖 Machine Learning · 🌧️ Environmental Risk · 🚨 Early Warning · 👥 Citizen Intelligence
-
-**Built for Smart India Hackathon 2026**
 
 </div>
 

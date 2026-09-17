@@ -1,0 +1,172 @@
+[
+  {
+    "id": "dharamshala",
+    "name": "Dharamshala",
+    "state": "Himachal Pradesh",
+    "lat": 32.219,
+    "lon": 76.3234,
+    "score": 82.0,
+    "level": "VERY_HIGH",
+    "primary_drivers": [
+      "rainfall",
+      "slope",
+      "soil",
+      "elevation"
+    ],
+    "population_exposed": 8420,
+    "nearby_infrastructure": "NH-503"
+  },
+  {
+    "id": "mcleodganj",
+    "name": "Mcleodganj",
+    "state": "Himachal Pradesh",
+    "lat": 32.2427,
+    "lon": 76.3234,
+    "score": 71.2,
+    "level": "VERY_HIGH",
+    "primary_drivers": [
+      "rainfall",
+      "slope",
+      "soil",
+      "elevation"
+    ],
+    "population_exposed": 5210,
+    "nearby_infrastructure": "Local Roads"
+  },
+  {
+    "id": "shimla",
+    "name": "Shimla",
+    "state": "Himachal Pradesh",
+    "lat": 31.1048,
+    "lon": 77.1734,
+    "score": 50.3,
+    "level": "HIGH",
+    "primary_drivers": [
+      "rainfall",
+      "slope",
+      "soil",
+      "elevation"
+    ],
+    "population_exposed": 12500,
+    "nearby_infrastructure": "NH-5"
+  },
+  {
+    "id": "manali",
+    "name": "Manali",
+    "state": "Himachal Pradesh",
+    "lat": 32.2432,
+    "lon": 77.1892,
+    "score": 46.9,
+    "level": "MODERATE",
+    "primary_drivers": [
+      "slope",
+      "rainfall",
+      "elevation",
+      "soil"
+    ],
+    "population_exposed": 4200,
+    "nearby_infrastructure": "NH-3"
+  },
+  {
+    "id": "mandi",
+    "name": "Mandi",
+    "state": "Himachal Pradesh",
+    "lat": 31.7084,
+    "lon": 76.9319,
+    "score": 63.4,
+    "level": "HIGH",
+    "primary_drivers": [
+      "rainfall",
+      "slope",
+      "soil",
+      "historical"
+    ],
+    "population_exposed": 6100,
+    "nearby_infrastructure": "NH-3"
+  },
+  {
+    "id": "joshimath",
+    "name": "Joshimath",
+    "state": "Uttarakhand",
+    "lat": 30.5551,
+    "lon": 79.5643,
+    "score": 82.3,
+    "level": "VERY_HIGH",
+    "primary_drivers": [
+      "rainfall",
+      "slope",
+      "soil",
+      "historical"
+    ],
+    "population_exposed": 9200,
+    "nearby_infrastructure": "NH-7 (Badrinath Highway)"
+  },
+  {
+    "id": "dehradun",
+    "name": "Dehradun",
+    "state": "Uttarakhand",
+    "lat": 30.3165,
+    "lon": 78.0322,
+    "score": 41.4,
+    "level": "MODERATE",
+    "primary_drivers": [
+      "rainfall",
+      "slope",
+      "soil",
+      "elevation"
+    ],
+    "population_exposed": 15200,
+    "nearby_infrastructure": "NH-72"
+  },
+  {
+    "id": "mussoorie",
+    "name": "Mussoorie",
+    "state": "Uttarakhand",
+    "lat": 30.4598,
+    "lon": 78.0644,
+    "score": 62.8,
+    "level": "HIGH",
+    "primary_drivers": [
+      "slope",
+      "rainfall",
+      "soil",
+      "elevation"
+    ],
+    "population_exposed": 3700,
+    "nearby_infrastructure": "Mall Road"
+  },
+  {
+    "id": "gangtok",
+    "name": "Gangtok",
+    "state": "Sikkim",
+    "lat": 27.3389,
+    "lon": 88.6065,
+    "score": 67.1,
+    "level": "HIGH",
+    "primary_drivers": [
+      "rainfall",
+      "slope",
+      "soil",
+      "elevation"
+    ],
+    "population_exposed": 7300,
+    "nearby_infrastructure": "NH-10"
+  },
+  {
+    "id": "darjeeling",
+    "name": "Darjeeling",
+    "state": "West Bengal",
+    "lat": 27.041,
+    "lon": 88.2663,
+    "score": 67.8,
+    "level": "HIGH",
+    "primary_drivers": [
+      "rainfall",
+      "slope",
+      "soil",
+      "elevation"
+    ],
+    "population_exposed": 5600,
+    "nearby_infrastructure": "Hill Cart Road"
+  }
+]

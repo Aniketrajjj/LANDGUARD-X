@@ -1,0 +1,38 @@
+[
+  {
+    "id": "LGX-1042",
+    "location_id": "dharamshala",
+    "location_name": "NH-503, Dharamshala",
+    "type": "Roadside slope failure",
+    "description": "Debris and loose rock observed encroaching onto carriageway after sustained rainfall.",
+    "severity": "CRITICAL",
+    "status": "RESPONSE PENDING",
+    "people_affected": 1240,
+    "reported_minutes_ago": 12,
+    "source": "authority"
+  },
+  {
+    "id": "LGX-1041",
+    "location_id": "joshimath",
+    "location_name": "Joshimath Town Ward 4",
+    "type": "Ground cracks",
+    "description": "New cracks reported near residential structures, widening over the past week.",
+    "severity": "CRITICAL",
+    "status": "MONITORING",
+    "people_affected": 640,
+    "reported_minutes_ago": 95,
+    "source": "citizen"
+  },
+  {
+    "id": "LGX-1038",
+    "location_id": "mussoorie",
+    "location_name": "Mall Road, Mussoorie",
+    "type": "Slope movement",
+    "description": "Minor slope creep observed behind retaining wall.",
+    "severity": "HIGH",
+    "status": "RESOLVED",
+    "people_affected": 180,
+    "reported_minutes_ago": 610,
+    "source": "citizen"
+  }
+]

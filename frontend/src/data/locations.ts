@@ -1,0 +1,39 @@
+// Mirrors backend/app/data/demo_data.py so the app can run fully offline
+// if the FastAPI backend is unreachable. Labelled "Demo data" in the UI.
+
+export interface RawLocation {
+  id: string
+  name: string
+  state: string
+  lat: number
+  lon: number
+  rainfall_mm: number
+  rainfall_forecast_mm: number
+  slope_deg: number
+  soil_moisture_pct: number
+  elevation_m: number
+  land_cover: string
+  historical_susceptibility: number
+  population_exposed: number
+  nearby_infrastructure: string
+  nearest_shelter_km: number
+  trend: 'increasing' | 'decreasing' | 'stable'
+  temperature_c: number
+  humidity_pct: number
+  wind_kmh: number
+}
+
+export const RAW_LOCATIONS: RawLocation[] = [
+  { id: 'dharamshala', name: 'Dharamshala', state: 'Himachal Pradesh', lat: 32.2190, lon: 76.3234, rainfall_mm: 138, rainfall_forecast_mm: 172, slope_deg: 34, soil_moisture_pct: 84, elevation_m: 1457, land_cover: 'sparse_vegetation', historical_susceptibility: 78, population_exposed: 8420, nearby_infrastructure: 'NH-503', nearest_shelter_km: 2.4, trend: 'increasing', temperature_c: 18, humidity_pct: 91, wind_kmh: 14 },
+  { id: 'mcleodganj', name: 'Mcleodganj', state: 'Himachal Pradesh', lat: 32.2427, lon: 76.3234, rainfall_mm: 121, rainfall_forecast_mm: 150, slope_deg: 31, soil_moisture_pct: 79, elevation_m: 2082, land_cover: 'forest', historical_susceptibility: 66, population_exposed: 5210, nearby_infrastructure: 'Local Roads', nearest_shelter_km: 1.8, trend: 'increasing', temperature_c: 15, humidity_pct: 88, wind_kmh: 16 },
+  { id: 'shimla', name: 'Shimla', state: 'Himachal Pradesh', lat: 31.1048, lon: 77.1734, rainfall_mm: 64, rainfall_forecast_mm: 70, slope_deg: 22, soil_moisture_pct: 55, elevation_m: 2205, land_cover: 'urban_mixed', historical_susceptibility: 52, population_exposed: 12500, nearby_infrastructure: 'NH-5', nearest_shelter_km: 1.1, trend: 'stable', temperature_c: 14, humidity_pct: 70, wind_kmh: 10 },
+  { id: 'manali', name: 'Manali', state: 'Himachal Pradesh', lat: 32.2432, lon: 77.1892, rainfall_mm: 48, rainfall_forecast_mm: 55, slope_deg: 27, soil_moisture_pct: 48, elevation_m: 2050, land_cover: 'forest', historical_susceptibility: 40, population_exposed: 4200, nearby_infrastructure: 'NH-3', nearest_shelter_km: 3.2, trend: 'stable', temperature_c: 12, humidity_pct: 62, wind_kmh: 12 },
+  { id: 'mandi', name: 'Mandi', state: 'Himachal Pradesh', lat: 31.7084, lon: 76.9319, rainfall_mm: 96, rainfall_forecast_mm: 118, slope_deg: 29, soil_moisture_pct: 71, elevation_m: 761, land_cover: 'sparse_vegetation', historical_susceptibility: 61, population_exposed: 6100, nearby_infrastructure: 'NH-3', nearest_shelter_km: 2.9, trend: 'increasing', temperature_c: 21, humidity_pct: 80, wind_kmh: 11 },
+  { id: 'joshimath', name: 'Joshimath', state: 'Uttarakhand', lat: 30.5551, lon: 79.5643, rainfall_mm: 112, rainfall_forecast_mm: 140, slope_deg: 38, soil_moisture_pct: 88, elevation_m: 1875, land_cover: 'barren', historical_susceptibility: 92, population_exposed: 9200, nearby_infrastructure: 'NH-7 (Badrinath Highway)', nearest_shelter_km: 1.5, trend: 'increasing', temperature_c: 13, humidity_pct: 85, wind_kmh: 18 },
+  { id: 'dehradun', name: 'Dehradun', state: 'Uttarakhand', lat: 30.3165, lon: 78.0322, rainfall_mm: 58, rainfall_forecast_mm: 62, slope_deg: 14, soil_moisture_pct: 42, elevation_m: 640, land_cover: 'urban_mixed', historical_susceptibility: 30, population_exposed: 15200, nearby_infrastructure: 'NH-72', nearest_shelter_km: 0.9, trend: 'stable', temperature_c: 24, humidity_pct: 58, wind_kmh: 9 },
+  { id: 'mussoorie', name: 'Mussoorie', state: 'Uttarakhand', lat: 30.4598, lon: 78.0644, rainfall_mm: 88, rainfall_forecast_mm: 101, slope_deg: 33, soil_moisture_pct: 68, elevation_m: 2005, land_cover: 'forest', historical_susceptibility: 58, population_exposed: 3700, nearby_infrastructure: 'Mall Road', nearest_shelter_km: 1.3, trend: 'increasing', temperature_c: 16, humidity_pct: 76, wind_kmh: 13 },
+  { id: 'gangtok', name: 'Gangtok', state: 'Sikkim', lat: 27.3389, lon: 88.6065, rainfall_mm: 104, rainfall_forecast_mm: 130, slope_deg: 30, soil_moisture_pct: 74, elevation_m: 1650, land_cover: 'forest', historical_susceptibility: 64, population_exposed: 7300, nearby_infrastructure: 'NH-10', nearest_shelter_km: 2.0, trend: 'increasing', temperature_c: 17, humidity_pct: 89, wind_kmh: 15 },
+  { id: 'darjeeling', name: 'Darjeeling', state: 'West Bengal', lat: 27.0410, lon: 88.2663, rainfall_mm: 92, rainfall_forecast_mm: 110, slope_deg: 32, soil_moisture_pct: 70, elevation_m: 2045, land_cover: 'sparse_vegetation', historical_susceptibility: 69, population_exposed: 5600, nearby_infrastructure: 'Hill Cart Road', nearest_shelter_km: 1.6, trend: 'increasing', temperature_c: 15, humidity_pct: 87, wind_kmh: 14 },
+]
+
+export const DEFAULT_LOCATION_ID = 'dharamshala'

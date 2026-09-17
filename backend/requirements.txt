@@ -1,0 +1,17 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+python-multipart==0.0.9
+
+# --- trained susceptibility model ---
+# scikit-learn is pinned to the version the model was trained under. Another
+# minor version still loads, but emits InconsistentVersionWarning and is not
+# guaranteed to score identically.
+scikit-learn==1.9.0
+joblib>=1.3
+pandas>=2.0
+numpy>=1.24
+
+# --- only needed by scripts/precompute_location_features.py, not at runtime ---
+requests>=2.31
+rasterio>=1.3

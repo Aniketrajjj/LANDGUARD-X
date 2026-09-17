@@ -1,0 +1,13 @@
+node_modules/
+dist/
+build/
+.env
+__pycache__/
+*.pyc
+backend/app/database/landguard.db
+.DS_Store
+*.log
+
+# Trained model artifact (~119 MB — exceeds GitHub's 100 MB file limit)
+backend/models/*.joblib
+backend/scripts/soil_cache/

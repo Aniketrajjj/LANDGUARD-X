@@ -1,0 +1,142 @@
+{
+  "dharamshala": {
+    "Elevation_m": 1457.0,
+    "Slope_deg": 34.0,
+    "Soil_Clay_pct": 22.8,
+    "Soil_Sand_pct": 45.2,
+    "Soil_Silt_pct": 32.0,
+    "Soil_pH": 6.1,
+    "Soil_SOC": 55.0,
+    "Soil_BulkDensity": 1.21,
+    "_source": {
+      "terrain": "demo_data.py",
+      "soil": "SoilGrids WCS 0-5cm"
+    }
+  },
+  "mcleodganj": {
+    "Elevation_m": 2082.0,
+    "Slope_deg": 31.0,
+    "Soil_Clay_pct": 23.8,
+    "Soil_Sand_pct": 45.3,
+    "Soil_Silt_pct": 30.9,
+    "Soil_pH": 5.6,
+    "Soil_SOC": 94.4,
+    "Soil_BulkDensity": 1.07,
+    "_source": {
+      "terrain": "demo_data.py",
+      "soil": "SoilGrids WCS 0-5cm"
+    }
+  },
+  "shimla": {
+    "Elevation_m": 2205.0,
+    "Slope_deg": 22.0,
+    "Soil_Clay_pct": 25.9,
+    "Soil_Sand_pct": 37.9,
+    "Soil_Silt_pct": 36.1,
+    "Soil_pH": 6.2,
+    "Soil_SOC": 51.6,
+    "Soil_BulkDensity": 1.2,
+    "_source": {
+      "terrain": "demo_data.py",
+      "soil": "SoilGrids WCS 0-5cm"
+    }
+  },
+  "manali": {
+    "Elevation_m": 2050.0,
+    "Slope_deg": 27.0,
+    "Soil_Clay_pct": 30.6,
+    "Soil_Sand_pct": 41.4,
+    "Soil_Silt_pct": 28.1,
+    "Soil_pH": 6.0,
+    "Soil_SOC": 75.6,
+    "Soil_BulkDensity": 1.15,
+    "_source": {
+      "terrain": "demo_data.py",
+      "soil": "SoilGrids WCS 0-5cm"
+    }
+  },
+  "mandi": {
+    "Elevation_m": 761.0,
+    "Slope_deg": 29.0,
+    "Soil_Clay_pct": 25.2,
+    "Soil_Sand_pct": 39.3,
+    "Soil_Silt_pct": 35.5,
+    "Soil_pH": 6.4,
+    "Soil_SOC": 56.6,
+    "Soil_BulkDensity": 1.24,
+    "_source": {
+      "terrain": "demo_data.py",
+      "soil": "SoilGrids WCS 0-5cm"
+    }
+  },
+  "joshimath": {
+    "Elevation_m": 1875.0,
+    "Slope_deg": 38.0,
+    "Soil_Clay_pct": 22.5,
+    "Soil_Sand_pct": 38.3,
+    "Soil_Silt_pct": 39.2,
+    "Soil_pH": 5.9,
+    "Soil_SOC": 70.0,
+    "Soil_BulkDensity": 1.17,
+    "_source": {
+      "terrain": "demo_data.py",
+      "soil": "SoilGrids WCS 0-5cm"
+    }
+  },
+  "dehradun": {
+    "Elevation_m": 640.0,
+    "Slope_deg": 14.0,
+    "Soil_Clay_pct": 0.0,
+    "Soil_Sand_pct": 0.0,
+    "Soil_Silt_pct": 0.0,
+    "Soil_pH": 0.0,
+    "Soil_SOC": 0.0,
+    "Soil_BulkDensity": 0.0,
+    "_source": {
+      "terrain": "demo_data.py",
+      "soil": "SoilGrids WCS 0-5cm"
+    }
+  },
+  "mussoorie": {
+    "Elevation_m": 2005.0,
+    "Slope_deg": 33.0,
+    "Soil_Clay_pct": 24.6,
+    "Soil_Sand_pct": 34.1,
+    "Soil_Silt_pct": 41.3,
+    "Soil_pH": 5.9,
+    "Soil_SOC": 69.4,
+    "Soil_BulkDensity": 1.12,
+    "_source": {
+      "terrain": "demo_data.py",
+      "soil": "SoilGrids WCS 0-5cm"
+    }
+  },
+  "gangtok": {
+    "Elevation_m": 1650.0,
+    "Slope_deg": 30.0,
+    "Soil_Clay_pct": 27.5,
+    "Soil_Sand_pct": 36.7,
+    "Soil_Silt_pct": 35.8,
+    "Soil_pH": 5.3,
+    "Soil_SOC": 50.8,
+    "Soil_BulkDensity": 1.1,
+    "_source": {
+      "terrain": "demo_data.py",
+      "soil": "SoilGrids WCS 0-5cm"
+    }
+  },
+  "darjeeling": {
+    "Elevation_m": 2045.0,
+    "Slope_deg": 32.0,
+    "Soil_Clay_pct": 27.7,
+    "Soil_Sand_pct": 39.1,
+    "Soil_Silt_pct": 33.2,
+    "Soil_pH": 5.7,
+    "Soil_SOC": 58.8,
+    "Soil_BulkDensity": 1.1,
+    "_source": {
+      "terrain": "demo_data.py",
+      "soil": "SoilGrids WCS 0-5cm"
+    }
+  }
+}
